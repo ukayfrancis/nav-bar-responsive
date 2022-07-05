@@ -17,7 +17,7 @@ body{
 
 .navbar>img{
     transform: scale(0.7);
-    /* margin-left: -800px; */
+    
 }
 
 .links{
@@ -45,7 +45,7 @@ body{
 }
 
 .fa-bars{
-    /* margin-left: -400px; */
+    
 }
 
 .droplinks>li>a{
@@ -60,7 +60,7 @@ body{
 .droplinks>li{
     padding-top: 10px;
     padding-bottom: 10px;
-    /* margin-left: -20px; */
+    
 }
 
 .droplinks{
@@ -71,7 +71,7 @@ body{
     list-style: none;
     position: absolute;
     background-color: white;
-    /* margin-left: 20px; */
+    
 }
 
 .drop{
@@ -85,13 +85,19 @@ body{
         display: none;
     }
 
-    /* .navbar>img{
-        float: right;
-    } */
-
+   
     .drop{
         display: block;
     }
+
+    .droplinks{
+        display: none;
+    }
+
+    .drop:hover .droplinks{
+        display: block;
+    }
+
 }
 
 
